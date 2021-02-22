@@ -43,7 +43,7 @@ defmodule OmniSense.MixProject do
       {:ring_logger, "~> 0.4"},
       {:nerves_network, "~> 0.3"},
       {:nerves_firmware_ssh, "~> 0.3"},
-      {:nerves_init_gadget, "~> 0.5.1"},
+      {:nerves_init_gadget, "~> 0.7.0"},
       {:elixir_ale, "~> 1.1"}
     ] ++ deps(@target)
   end
